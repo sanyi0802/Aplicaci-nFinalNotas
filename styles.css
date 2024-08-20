@@ -1,0 +1,212 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.background-index {
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+/* Imagenes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Contenedor Principal */
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Margen superior */
+.mt-5 {
+    margin-top: 50px;
+}
+
+/* Estilos del Jumbotron */
+.jumbotron {
+    background-color: rgba(0, 123, 255, 0.8); /* Fondo azul con transparencia */
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.jumbotron .display-4 {
+    font-size: 2.5rem;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Disposición de columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    width: 100%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+
+.col-md-6 {
+    width: 100%;
+    max-width: 50%;
+    padding: 15px;
+}
+
+.col-md-10 {
+    width: 100%;
+    max-width: 83.33%;
+    padding: 15px;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos de los modales */
+.modal-content {
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    border-top: none;
+    padding: 1rem 2rem;
+}
+
+/* Formularios */
+.form-group label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Adaptación a dispositivos móviles */
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-6,
+    .col-md-10 {
+        max-width: 100%;
+    }
+}
